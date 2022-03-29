@@ -1,0 +1,183 @@
+@charset "UTF8";
+
+body,p,ul,li,h1{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/bg_img.png);
+}
+
+img{
+    width: 100%;
+}
+
+p,h1,h2{
+    font-family: serif;
+}
+
+/*---------------ヘッダー------------*/
+
+
+nav li{
+
+    font-size: 1.5rem;
+    color: #fff;
+    list-style-type: none;
+    text-align: center;
+    background-color: #daae50;
+    font-family: serif;
+    width: calc(100% / 5);
+    padding: 20px; 
+}
+.nav_ul{
+    
+    display: flex;
+    text-align: center;
+
+}
+
+/*-------------コラボ概要-------------*/
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15vh;
+    color: rgb(209, 168, 110);
+}
+
+.korabo_1{
+    display: flex;
+    text-align: center;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    padding: 5vh;
+    width: 80vw;
+}
+
+.korabo_1 p{
+    font-size: 1.6rem;
+    margin-right: 5vw;
+    left: 5vw;
+    margin-top: 2vh;
+}
+
+.korabo_1 img{
+    width: 40%;
+    border: 5px solid #daae50;
+    
+
+}
+
+.korabo_2{
+    display: flex;
+    text-align: center;
+    margin-left: 1vw;
+    margin-top: 5vh;
+    padding: 10vh;
+    width: 80vw;
+}
+
+.korabo_2 p{
+    font-size: 1.5rem;
+    
+    width: 80vw;
+   margin-top: -50px;
+   
+    
+  
+}
+
+.korabo_2 img{
+    width: 66%;
+    border: 5px solid #daae50;
+    margin-left: 5vw;
+    margin-top: -10vh;
+    
+
+}
+
+.fade{
+    margin-top: 80vh;
+    text-align: center;
+    opacity : 0;
+    transition: opacity 3s;
+  }
+   
+  .fade.view{
+    opacity: 1;
+  }
+   
+.fade-2{
+    margin-top: 80vh;
+    text-align: center;
+    opacity : 0;
+    transition: opacity 3s;
+
+}
+
+.fade-2.view{
+    opacity: 2;
+  }
+
+
+/*---------------対策-------------------*/
+.taisaku{
+    text-align: center;
+    background-color: rgb(244, 229, 200);
+    border: 5px solid rgb(164, 158, 130);
+    border-radius: 10px;
+    width: 70vw;
+    margin-left: 15vw;
+}
+h2{
+    margin-top: 5vh;
+    color: rgb(155, 69, 69);
+    font-size: 2rem;
+}
+
+.taisaku p{
+    padding: 0 0 3vh 0;
+    font-size: 1.3rem;
+}
+
+/*-------------------お知らせ---------------------------*/
+
+h3{
+    text-align: center;
+    margin-top: 5vh;
+    color: rgb(155, 69, 69);
+    font-size: 2rem;
+}
+
+dl{
+    padding-top: 5vh;
+    background-color:rgba(239, 204, 159, 0.521);
+    text-align: center;
+    width:100%; 
+    height: 45vh;
+    font-size: 25px;
+   }
+   dt{
+       
+    color:rgb(20, 98, 51);
+    font-family: serif;
+    margin-left: 20vw;
+    float:left;
+    
+   }
+   dd{
+     margin-left:100px;
+     font-family: serif;
+    
+   }
+   /*-------------------フッター*/
+
+
+   footer{
+       background-color: rgb(184, 163, 108);
+   }
+   footer p{
+       text-align: center;
+   }
