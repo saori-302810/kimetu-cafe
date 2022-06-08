@@ -39,7 +39,11 @@ nav li{
     text-align: center;
 
 }
-
+.nav_ul a{
+	color: #fff;
+	text-decoration: none;
+  
+  }
 
 /*-----------------------------------------------*/
 
