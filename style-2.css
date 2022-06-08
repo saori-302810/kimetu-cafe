@@ -32,8 +32,11 @@ nav li{
 }
 
 .nav_ul a{
-    color: #fff;
-    text-decoration: none;}
+  color: #fff;
+  text-decoration: none;
+
+}
+
 /*----------------------------------------タブメニュー-----------------------------------------*/
 
 .menu img{
