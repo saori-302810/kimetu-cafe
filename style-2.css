@@ -24,14 +24,14 @@ nav li{
     width: calc(100% / 5);
     padding: 20px; 
 }
-nav_ul{
+.nav_ul{
     
     display: flex;
     text-align: center;
 
 }
 
-nav a{
+.nav_ul a{
     color: #fff;
     text-decoration: none;}
 /*----------------------------------------タブメニュー-----------------------------------------*/
