@@ -38,6 +38,11 @@ nav li{
 
 }
 
+.nav_ul a{
+    color: #fff;
+	text-decoration: none;
+}
+
 /*-------------コラボ概要-------------*/
 
 h1{
